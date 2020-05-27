@@ -25,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/davixyz/phoenix/issues"
+  },
+  "dependencies": {
+    "@carlosdev/phoenix-button": "^0.0.0",
+    "@carlosdev/phoenix-text": "^0.0.0"
   }
 }

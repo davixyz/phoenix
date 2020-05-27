@@ -1,7 +1,4 @@
-'use strict';
+import { Button } from '@carlosdev/phoenix-button';
+import { Text } from '@carlosdev/phoenix-text';
 
-module.exports = phoenix;
-
-function phoenix() {
-    // TODO
-}
+export { Button, Text };

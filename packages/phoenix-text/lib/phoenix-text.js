@@ -1,7 +1,5 @@
-'use strict';
+import React from 'react';
 
-module.exports = phoenixText;
+const Text = ({ children }) => <p>{children}</p>;
 
-function phoenixText() {
-    // TODO
-}
+export { Text };
