@@ -1,0 +1,24 @@
+{
+  "name": "phoenix",
+  "private": true,
+  "version": "1.0.0",
+  "description": "React UI Library with CSS Modules and Mono Repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davixyz/phoenix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davixyz/phoenix/issues"
+  },
+  "homepage": "https://github.com/davixyz/phoenix#readme",
+  "keywords": [],
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
+}
