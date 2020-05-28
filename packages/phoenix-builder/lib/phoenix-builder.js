@@ -8,10 +8,9 @@ const currentWorkingPath = process.cwd();
 const { main, name } = require(path.join(currentWorkingPath, 'package.json'));
 
 const inputPath = path.join(currentWorkingPath, main);
-const outputPath = path.join(currentWorkingPath, 'dist');
 
+// Little hack to just get the file name
 const fileName = name.replace('@carlosdev/', '');
-console.log(fileName);
 
 // see below for details on the options
 const inputOptions = {
@@ -37,10 +36,9 @@ const outputOptions = [
 ];
 
 async function build() {
-  // create a bundle
+  // create bundle
   const bundle = await rollup.rollup(inputOptions);
-  // or write the bundle to disk
-  // await bundle.write(outputOptions);
+  // loop through the options and write individual bundles
   outputOptions.forEach(async (options) => {
     await bundle.write(options);
   });
