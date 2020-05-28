@@ -21,6 +21,7 @@
     "url": "git+https://github.com/davixyz/phoenix.git"
   },
   "scripts": {
+    "build": "phoenix-builder",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
@@ -29,5 +30,8 @@
   "dependencies": {
     "@carlosdev/phoenix-button": "^0.0.0",
     "@carlosdev/phoenix-text": "^0.0.0"
+  },
+  "devDependencies": {
+    "@carlosdev/phoenix-builder": "^0.0.0"
   }
 }
