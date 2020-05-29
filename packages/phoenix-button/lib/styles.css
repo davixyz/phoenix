@@ -1,0 +1,26 @@
+.Button {
+  width: auto;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: rgb(5, 177, 105);
+  border-radius: 4px;
+  transition: all 100ms ease-in-out 0s;
+  padding: 12px 16px;
+  border: 1px solid rgb(5, 177, 105);
+}
+
+.Button:hover {
+  background-color: rgb(0, 165, 93);
+  border-color: rgb(0, 165, 93);
+}
+
+.ButtonSecondary {
+  background: transparent;
+  border-color: white;
+}
+
+.ButtonSecondary:hover {
+  background: white;
+  color: black;
+}
