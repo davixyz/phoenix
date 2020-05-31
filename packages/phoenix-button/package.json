@@ -1,5 +1,5 @@
 {
-  "name": "@carlosdev/phoenix-button",
+  "name": "@cddev/phoenix-button",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Carlos Castro <cdcastrofelix@gmail.com>",
@@ -34,7 +34,7 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "@carlosdev/phoenix-builder": "^0.0.0",
+    "@cddev/phoenix-builder": "^0.0.0",
     "react": "^16.13.1"
   },
   "dependencies": {

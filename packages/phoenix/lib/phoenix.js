@@ -1,4 +1,4 @@
-import { Button } from '@carlosdev/phoenix-button';
-import { Text } from '@carlosdev/phoenix-text';
+import { Button } from '@cddev/phoenix-button';
+import { Text } from '@cddev/phoenix-text';
 
 export { Button, Text };

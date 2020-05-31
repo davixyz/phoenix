@@ -2,6 +2,6 @@
 
 const phoenixButton = require('..');
 
-describe('@carlosdev/phoenix-button', () => {
-    it('needs tests');
+describe('@cddev/phoenix-button', () => {
+  it('needs tests');
 });

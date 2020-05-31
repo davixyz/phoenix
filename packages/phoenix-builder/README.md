@@ -1,11 +1,11 @@
-# `@carlosdev/phoenix-builder`
+# `@cddev/phoenix-builder`
 
 > TODO: description
 
 ## Usage
 
 ```
-const phoenixBuilder = require('@carlosdev/phoenix-builder');
+const phoenixBuilder = require('@cddev/phoenix-builder');
 
 // TODO: DEMONSTRATE API
 ```

@@ -1,11 +1,11 @@
-# `@carlosdev/phoenix`
+# `@cddev/phoenix`
 
 > TODO: description
 
 ## Usage
 
 ```
-const phoenix = require('@carlosdev/phoenix');
+const phoenix = require('@cddev/phoenix');
 
 // TODO: DEMONSTRATE API
 ```

@@ -2,6 +2,6 @@
 
 const phoenixBuilder = require('..');
 
-describe('@carlosdev/phoenix-builder', () => {
-    it('needs tests');
+describe('@cddev/phoenix-builder', () => {
+  it('needs tests');
 });
