@@ -1,6 +1,6 @@
 {
   "name": "@cddev/phoenix-button",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Carlos Castro <cdcastrofelix@gmail.com>",
   "homepage": "https://github.com/davixyz/phoenix/tree/master/packages/phoenix-button#readme",
@@ -34,7 +34,7 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "@cddev/phoenix-builder": "^0.0.0",
+    "@cddev/phoenix-builder": "^1.0.0",
     "react": "^16.13.1"
   },
   "dependencies": {

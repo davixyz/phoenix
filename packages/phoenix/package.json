@@ -1,6 +1,6 @@
 {
   "name": "@cddev/phoenix",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Carlos Castro <cdcastrofelix@gmail.com>",
   "homepage": "https://github.com/davixyz/phoenix/tree/master/packages/phoenix#readme",
@@ -31,10 +31,10 @@
     "url": "https://github.com/davixyz/phoenix/issues"
   },
   "dependencies": {
-    "@cddev/phoenix-button": "^0.0.0",
-    "@cddev/phoenix-text": "^0.0.0"
+    "@cddev/phoenix-button": "^1.0.0",
+    "@cddev/phoenix-text": "^1.0.0"
   },
   "devDependencies": {
-    "@cddev/phoenix-builder": "^0.0.0"
+    "@cddev/phoenix-builder": "^1.0.0"
   }
 }
