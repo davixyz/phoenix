@@ -5,9 +5,9 @@
   "author": "Carlos Castro <cdcastrofelix@gmail.com>",
   "homepage": "https://github.com/davixyz/phoenix/tree/master/packages/phoenix#readme",
   "license": "ISC",
-  "main": "lib/phoenix.js",
-  "cjs": "dist/phoenix.cjs.js",
+  "main": "dist/phoenix.cjs.js",
   "module": "dist/phoenix.esm.js",
+  "src": "lib/phoenix.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
