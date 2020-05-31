@@ -20,6 +20,7 @@ const inputOptions = {
   plugins: [
     resolve(),
     postcss({
+      // Key configuration
       modules: true,
     }),
     babel({

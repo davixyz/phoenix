@@ -37,5 +37,8 @@
   "devDependencies": {
     "@carlosdev/phoenix-builder": "^0.0.0",
     "react": "^16.13.1"
+  },
+  "dependencies": {
+    "clsx": "^1.1.0"
   }
 }
