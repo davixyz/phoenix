@@ -9,7 +9,8 @@
     "build": "lerna run build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "setup": "npm install && lerna bootstrap"
+    "setup": "npm install && lerna bootstrap",
+    "gh-pages": "npm run build-storybook && gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
+    "gh-pages": "^3.0.0",
     "lerna": "^3.22.0"
   },
   "dependencies": {}
