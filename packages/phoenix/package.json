@@ -1,0 +1,38 @@
+{
+  "name": "@cddev/phoenix",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Carlos Castro <cdcastrofelix@gmail.com>",
+  "homepage": "https://github.com/davixyz/phoenix/tree/master/packages/phoenix#readme",
+  "license": "ISC",
+  "main": "lib/phoenix.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davixyz/phoenix.git"
+  },
+  "scripts": {
+    "build": "phoenix-builder",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/davixyz/phoenix/issues"
+  },
+  "dependencies": {
+    "@cddev/phoenix-button": "^0.0.0",
+    "@cddev/phoenix-text": "^0.0.0"
+  },
+  "devDependencies": {
+    "@cddev/phoenix-builder": "^0.0.0"
+  }
+}

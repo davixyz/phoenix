@@ -1,0 +1,41 @@
+{
+  "name": "@cddev/phoenix-builder",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Carlos Castro <cdcastrofelix@gmail.com>",
+  "homepage": "https://github.com/davixyz/phoenix/tree/master/packages/phoenix-builder#readme",
+  "license": "ISC",
+  "main": "lib/phoenix-builder.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "phoenix-builder": "./lib/phoenix-builder.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davixyz/phoenix.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/davixyz/phoenix/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "rollup": "^2.15.0"
+  }
+}
