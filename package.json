@@ -4,8 +4,11 @@
   "description": "React UI Library with CSS Modules and Mono Repo",
   "main": "index.js",
   "scripts": {
-    "build":  "lerna run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "lerna run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "deploy": "npm run build-storybook && gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,13 @@
   },
   "homepage": "https://github.com/davixyz/phoenix#readme",
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
     "lerna": "^3.22.0"
-  }
+  },
+  "dependencies": {}
 }
