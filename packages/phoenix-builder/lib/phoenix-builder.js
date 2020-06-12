@@ -3,6 +3,7 @@ const rollup = require('rollup');
 const path = require('path');
 const resolve = require('@rollup/plugin-node-resolve').default;
 const babel = require('@rollup/plugin-babel').default;
+const postcss = require('rollup-plugin-postcss');
 
 const currentWorkingPath = process.cwd();
 const { main, name } = require(path.join(currentWorkingPath, 'package.json'));
@@ -21,6 +22,10 @@ const inputOptions = {
     babel({
       presets: ['@babel/preset-env', '@babel/preset-react'],
       babelHelpers: 'bundled',
+    }),
+    postcss({
+      // Key configuration
+      modules: true,
     }),
   ],
 };

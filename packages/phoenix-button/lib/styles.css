@@ -1,0 +1,27 @@
+.Button {
+  background-color: #05b169;
+  border-radius: 0.25rem;
+  border: 1px solid #05b169;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  transition: all 100ms ease-in-out;
+  width: auto;
+}
+
+.Button:hover {
+  background-color: #00a55e;
+  border-color: #00a55e;
+}
+
+.ButtonSecondary {
+  background: transparent;
+  border-color: #fff;
+}
+
+.ButtonSecondary:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}
