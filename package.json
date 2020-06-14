@@ -10,7 +10,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "setup": "npm install && lerna bootstrap",
-    "gh-pages": "npm run build-storybook && gh-pages -d storybook-static"
+    "deploy": "npm run build-storybook && gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",

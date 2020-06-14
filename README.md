@@ -2,7 +2,7 @@
 
 React UI Library with CSS Modules and Mono Repo
 
-# How to install\
+# How to install
 
 ```sh
 npm run setup
@@ -17,5 +17,5 @@ npm run storybook
 # Deploy
 
 ```sh
-npm run gh-pages
+npm run deploy
 ```
