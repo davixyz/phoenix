@@ -20,6 +20,8 @@ module.exports = {
       ],
     });
 
+    config.resolve.mainFields = ['src', 'module', 'main'];
+
     // Return the altered config
     return config;
   },

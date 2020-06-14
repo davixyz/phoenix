@@ -6,7 +6,9 @@
   "author": "Carlos Castro <cdcastrofelix@gmail.com>",
   "homepage": "https://github.com/davixyz/phoenix/tree/master/packages/phoenix-button#readme",
   "license": "ISC",
-  "main": "lib/phoenix-button.js",
+  "main": "dist/phoenix-button.cjs.js",
+  "module": "dist/phoenix-button.esm.js",
+  "src": "lib/phoenix-button.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

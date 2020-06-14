@@ -6,11 +6,13 @@ const babel = require('@rollup/plugin-babel').default;
 const postcss = require('rollup-plugin-postcss');
 
 const currentWorkingPath = process.cwd();
-const { main, name } = require(path.join(currentWorkingPath, 'package.json'));
+// Little refactor from where we get the code
+const { src, name } = require(path.join(currentWorkingPath, 'package.json'));
 
-const inputPath = path.join(currentWorkingPath, main);
+// build input path using the src
+const inputPath = path.join(currentWorkingPath, src);
 
-// Little workaround to get package name without scope
+// Little hack to just get the file name
 const fileName = name.replace('@cddev/', '');
 
 // see below for details on the options
@@ -19,17 +21,17 @@ const inputOptions = {
   external: ['react'],
   plugins: [
     resolve(),
-    babel({
-      presets: ['@babel/preset-env', '@babel/preset-react'],
-      babelHelpers: 'bundled',
-    }),
     postcss({
       // Key configuration
       modules: true,
     }),
+    babel({
+      presets: ['@babel/preset-env', '@babel/preset-react'],
+      babelHelpers: 'bundled',
+      exclude: 'node_modules/**',
+    }),
   ],
 };
-
 const outputOptions = [
   {
     file: `dist/${fileName}.cjs.js`,
