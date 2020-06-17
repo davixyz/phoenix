@@ -8,9 +8,11 @@
   padding: 0.75rem 1rem;
   transition: all 100ms ease-in-out;
   width: auto;
+  outline: none;
 }
 
-.Button:hover {
+.Button:hover,
+.Button:focus {
   background-color: #00a55e;
   border-color: #00a55e;
 }
@@ -20,7 +22,8 @@
   border-color: #fff;
 }
 
-.ButtonSecondary:hover {
+.ButtonSecondary:hover,
+.ButtonSecondary:focus {
   background: #fff;
   border-color: #fff;
   color: #000;
