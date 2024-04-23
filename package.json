@@ -30,7 +30,7 @@
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
-    "gh-pages": "^3.0.0",
+    "gh-pages": "^5.0.0",
     "lerna": "^3.22.0"
   },
   "dependencies": {}
